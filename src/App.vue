@@ -14,7 +14,7 @@
 						class="mb-2"
 					>
 						<b-card-text>
-						Some quick example tex111t to build on the card title and make up the bulk of the card's content.
+						Some quick examp11le tex111t to build on the card title and make up the bulk of the card's content.
 						</b-card-text>
 
 						<b-button href="#" variant="primary">Go somewhere111</b-button>
