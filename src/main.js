@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+import router from './router.js'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 
 // Import Bootstrap an BootstrapVue CSS files (order is important)
@@ -15,4 +16,7 @@ Vue.config.productionTip = false
 
 new Vue({
   render: h => h(App),
+
+  // 라우터 객체를 넘겨준다
+  router,
 }).$mount('#app')

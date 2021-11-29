@@ -26,3 +26,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### 강제로 덮어 씌우기
 git push -f origin master
+
+### bootstrap install
+npm install vue bootstrap bootstrap-vue
+
+### router install
+npm install --save vue-router
