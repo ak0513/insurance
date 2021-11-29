@@ -1,9 +1,9 @@
 <template>
 	<div id="app">
-		<router-link to="/about">about</router-link>	
-		<router-link to="/home">home</router-link>	
+		<router-link to="/insurance/about">about</router-link>	
+		<router-link to="/insurance/home">home</router-link>	
 		<router-view></router-view>
-		<router-link to="/"><img alt="Vue logo" src="./assets/logo.png"></router-link>	
+		<router-link to="/insurance/"><img alt="Vue logo" src="./assets/logo.png"></router-link>	
 		<HelloWorld msg="Welcome to Your Vue.js App"/>
 		<div class="container">
 			<div class="row">

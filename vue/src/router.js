@@ -9,8 +9,8 @@ import About from './about.vue'
 const router = new VueRouter({
     mode: "history",
     routes: [
-        {path: '/home', component: Home},
-        {path: '/about', component: About}
+        {path: '/insurance/home', component: Home},
+        {path: '/insurance/about', component: About}
     ]
 })
 
