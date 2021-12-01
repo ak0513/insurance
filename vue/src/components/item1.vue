@@ -1,9 +1,14 @@
 <template>
-    <h1>111</h1>
+  <div id="app-5">{{ msg }}</div>
 </template>
 
 <script>
 export default {
-  name: 'item1',
+  el: '#app-5',
+  data: function() {
+    return {
+      msg: 'item1222'
+    }
+  }
 }
 </script>
