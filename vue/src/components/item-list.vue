@@ -1,10 +1,10 @@
 <template>
-	<div class="mt-4">
+	<div class="mt-3">
 		<ul class="item-list row p-0 g-2">
 			<li class="data-a col-12 col-md-6">
 				<b-card 
 					title="금액"
-					header-bg-variant="primary"
+					header-bg-variant="secondary"
 					header-text-variant="white"
 					footer="footer1"
 					footer-text-variant="primary"
@@ -41,7 +41,7 @@
 import modal1 from './modal1.vue'
 
 export default {
-	name: 'ItemListComponents',
+	name: 'item-list-compontents',
 	components: {
 		modal1
 	},

@@ -1,8 +1,6 @@
 <template>
 	<div id="app">
 		<Header></Header>
-		<div class="val">{{ val2 }}</div>
-		<div class="itemTitle">{{ itemTitle }}</div>
 		<main id="main">
 			<div class="container">
 				<router-view></router-view>
@@ -13,22 +11,25 @@
 				</div>
 			</div>
 		</main>
-		
+		<Nav @getItemTitle="setTxt"></Nav>
+
+
+		<div class="val">{{ val2 }}</div>
+		<div class="itemTitle">{{ itemTitle }}</div>
 		<child message="부모에서 자식으로 데이터 넘겨주기" @callParent="setTxt2"></child>
-		<AsideNav @getItemTitle="setTxt"></AsideNav>
 	</div>
 </template>
 
 <script>
 import Header from './components/header.vue'
-import AsideNav from './components/asideNav.vue'
+import Nav from './components/nav.vue'
 import ItemList from './components/item-list.vue'
 import child from './components/child.vue'
 
 export default {
 	name: 'App',
 	components: {
-		AsideNav,
+		Nav,
 		ItemList,
 		child,
 		Header
@@ -79,5 +80,15 @@ body {
 
 #main {
 	flex-grow: 1;
+}
+.a11y {
+	overflow: hidden;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	clip: rect(1px,1px,1px,1px);
+	clip-path: inset(50%);
 }
 </style>

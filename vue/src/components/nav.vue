@@ -31,7 +31,7 @@
 
 <script>
 export default {
-    name: 'asideNav',
+    name: 'navi',
     data:() => ({
          // val: ''
 
