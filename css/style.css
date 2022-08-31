@@ -217,7 +217,7 @@ ul.list-refer li::before {
 	margin:0 -1.5rem 0;
 	background-color:#2c2c2e;
 	border-bottom:1px solid #222;
-	border-radius:7px;
+	/* border-radius:7px; */
 	color: #969696;
 }
 
@@ -236,7 +236,7 @@ ul.list-refer li::before {
 	right:2.0rem;
 	padding: 0.3rem 1.0rem 0.4rem;
 	background-color: #0069d9;
-	/* border-radius: 0.5rem; */
+	border-radius: 0.5rem;
 	color: #fff;
 	font-size: 1.4rem;
 	transform:translateY(-50%);
