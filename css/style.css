@@ -6,6 +6,17 @@
 	word-wrap: break-word;
 }
 
+.a11y {
+	overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+}
+
 html {
 	font-size: 62.5%;
 	font-family: sans-serif;
@@ -203,8 +214,9 @@ ul.list-refer li::before {
 
 .insur-item {
 	display:none;
-	margin-top:1.0rem;
+	margin:0 -1.5rem 0;
 	background-color:#2c2c2e;
+	border-bottom:1px solid #222;
 	border-radius:7px;
 	color: #969696;
 }
@@ -231,7 +243,7 @@ ul.list-refer li::before {
 }
 
 .insur-bottom {
-	border-top:1px solid #222;
+	border-top:1px dashed #222;
 }
 
 .insur-tit {
