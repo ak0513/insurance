@@ -242,7 +242,7 @@ ul.list-refer li::before {
 }
 
 .insur-bottom {
-	border-top:1px dashed #222;
+	border-top:1px dashed #111214;
 }
 
 .insur-tit {
@@ -318,7 +318,7 @@ ul.list-refer li::before {
 .insur-bottom.toggle .insur-desc {
 	display: block;
 	padding: 1.5rem 2.0rem;
-	border-bottom: 1px dotted #222;
+	border-bottom: 1px dotted #111214;
 }
 
 .info .insur-tit {
