@@ -213,6 +213,8 @@ ul.list-refer li::before {
 }
 
 .insur-item {
+	position: relative;
+	z-index: 20;
 	display:none;
 	background-color:#1f2022;
 	border-bottom:1px solid #222;
