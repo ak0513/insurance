@@ -208,6 +208,11 @@ ul.list-refer li::before {
 	margin-top: 5.0rem;
 }
 
+.insur-group {
+	position: relative;
+	z-index: 10;
+}
+
 .insur-group:last-child {
 	margin-bottom: 0;
 }
